@@ -1,0 +1,42 @@
+{
+    "ext": {
+        "title": "シフト・カレンダー",
+        "label_year": "年を入力してください:",
+        "label_month": "月を入力してください (1-12):",
+        "label_data": "データを入力してください (各行: 日 + シフトコード):",
+        "paste_button": "クリップボードから貼り付け",
+        "shifts_button": "シフト",
+        "create_button": "カレンダーを作成",
+        "language_button": "言語を変更",
+        "ext_lang": '外部辞書を使用する',
+        "exit_button": "終了",
+
+        "current_shifts": "現在のシフト:",
+        "add_shift_title": "シフトを追加",
+        "add_shift_message1": "シフトコードを入力してください (1-2文字, 例: 'X'):",
+        "add_shift_message2": "シフトの時間を入力してください (例: '08:00 - 17:00'):",
+        "add_shift_success": "シフト '{code}' を追加しました: {time}",
+
+        "success_title": "完了",
+        "success_message": "カレンダーが {filename} として保存されました",
+
+        "error_title": "エラー",
+        "error_year_month_message": "年と月は整数である必要があります。",
+        "error_month_range_message": "月は1から12の範囲で入力してください。",
+        "error_no_data_message": "シフトのデータが入力されていません。",
+        "error_line_format": "無効な行の形式: {line}",
+        "error_line_value": "無効な日またはシフト: {line}",
+        "empty_clipboard_error": "エラー",
+        "empty_clipboard_message": "クリップボードが空または利用できません。",
+
+        "week_days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "months": {
+            1: "January", 2: "February", 3: "March",    4: "April",
+            5: "May",     6: "June",     7: "July",     8: "August",
+            9: "September", 10: "October", 11: "November", 12: "December"
+        },
+        'help_button': 'Help',
+        'help_instructions': "スケジュールのデータは手動で入力できます。スペースまたはタブで区切ってください。例: 1 f\n\n"
+                             "重要: 夜勤 S の後には、必ず H を続けて入力してください。"
+    }
+}
